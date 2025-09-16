@@ -1,0 +1,22 @@
+# IDE specific files
+.idea/
+
+# Build artifacts
+bin/
+obj/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages and logs
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+*.log
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
