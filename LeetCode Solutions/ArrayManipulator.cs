@@ -11,8 +11,6 @@ public static class ArrayManipulator
     /// <exception cref="ArgumentException"></exception>
     public static int[] TwoSums(int[] nums, int target)
     {
-        if (nums is null)
-            throw new ArgumentNullException(nameof(nums));
         if (nums.Length == 0)
             throw new ArgumentException("Array cannot be empty", nameof(nums));
         

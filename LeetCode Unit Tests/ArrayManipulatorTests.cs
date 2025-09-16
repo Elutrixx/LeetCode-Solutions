@@ -14,7 +14,6 @@ public class ArrayManipulatorTests
     }
     
     [Theory]
-    [InlineData(null,2,typeof(ArgumentNullException))]
     [InlineData(new int[0],2,typeof(ArgumentException))]
     [InlineData(new [] {1,2},100,typeof(ArgumentException))]
     public void TwoSums_ShouldThrow(int[] nums, int target, Type expectedException)
