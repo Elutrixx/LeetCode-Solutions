@@ -1,4 +1,4 @@
-namespace LeetCode_Solutions;
+namespace LeetCode_Solutions.Manipulators;
 
 public static class ArrayManipulator
 {

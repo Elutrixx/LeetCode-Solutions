@@ -1,4 +1,4 @@
-﻿using LeetCode_Solutions;
+﻿using LeetCode_Solutions.Manipulators;
 
 namespace LeetCode_Unit_Tests;
 
